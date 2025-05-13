@@ -3,7 +3,7 @@
 client_id = "ba35ff532759684be4514717db1fa214"
 name = "Case Studies"
 handle = "case-studies-2"
-application_url = "https://relationships-patch-delivered-later.trycloudflare.com"
+application_url = "https://pk-fifteen-madonna-dress.trycloudflare.com"
 embedded = true
 
 [build]
@@ -27,9 +27,9 @@ scopes = "write_products,read_content,write_content,read_themes,write_themes"
 
 [auth]
 redirect_urls = [
-  "https://relationships-patch-delivered-later.trycloudflare.com/auth/callback",
-  "https://relationships-patch-delivered-later.trycloudflare.com/auth/shopify/callback",
-  "https://relationships-patch-delivered-later.trycloudflare.com/api/auth/callback"
+  "https://pk-fifteen-madonna-dress.trycloudflare.com/auth/callback",
+  "https://pk-fifteen-madonna-dress.trycloudflare.com/auth/shopify/callback",
+  "https://pk-fifteen-madonna-dress.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
