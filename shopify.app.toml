@@ -3,12 +3,12 @@
 client_id = "ba35ff532759684be4514717db1fa214"
 name = "Case Studies"
 handle = "case-studies-2"
-application_url = "https://pk-fifteen-madonna-dress.trycloudflare.com"
+application_url = "https://case-studies-brown.vercel.app"
 embedded = true
 
 [build]
 include_config_on_deploy = true
-automatically_update_urls_on_dev = true
+automatically_update_urls_on_dev = false
 
 [webhooks]
 api_version = "2025-04"
@@ -27,9 +27,9 @@ scopes = "write_products,read_content,write_content,read_themes,write_themes"
 
 [auth]
 redirect_urls = [
-  "https://pk-fifteen-madonna-dress.trycloudflare.com/auth/callback",
-  "https://pk-fifteen-madonna-dress.trycloudflare.com/auth/shopify/callback",
-  "https://pk-fifteen-madonna-dress.trycloudflare.com/api/auth/callback"
+  "https://case-studies-brown.vercel.app/auth/callback",
+  "https://case-studies-brown.vercel.app/auth/shopify/callback",
+  "https://case-studies-brown.vercel.app/api/auth/callback"
 ]
 
 [pos]
