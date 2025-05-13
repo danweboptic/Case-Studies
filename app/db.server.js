@@ -1,12 +1,8 @@
 import { PrismaClient } from "@prisma/client";
 
-let prisma: PrismaClient;
+let prisma;
 
-declare global {
-  var prisma: PrismaClient | undefined;
-}
-
-if (typeof global.prisma === "undefined") {
+if (!global.prisma) {
   prisma = new PrismaClient();
   global.prisma = prisma;
 } else {
