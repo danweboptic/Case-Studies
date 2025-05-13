@@ -2,7 +2,7 @@
   "name": "case-studies",
   "private": true,
   "scripts": {
-    "build": "prisma generate && remix vite:build",
+    "build": "npx prisma generate && remix vite:build",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
