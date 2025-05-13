@@ -24,11 +24,11 @@
   },
   "dependencies": {
     "@prisma/client": "^6.2.1",
-    "@remix-run/dev": "^2.16.1",
-    "@remix-run/fs-routes": "^2.16.1",
-    "@remix-run/node": "^2.16.1",
-    "@remix-run/react": "^2.16.1",
-    "@remix-run/serve": "^2.16.1",
+    "@remix-run/dev": "2.15.3",
+    "@remix-run/fs-routes": "2.15.3",
+    "@remix-run/node": "2.15.3",
+    "@remix-run/react": "2.15.3",
+    "@remix-run/serve": "2.15.3",
     "@remix-run/vercel": "^1.19.3",
     "@shopify/app-bridge-react": "^4.1.6",
     "@shopify/polaris": "^12.0.0",
@@ -42,18 +42,24 @@
     "vite-tsconfig-paths": "^5.0.1"
   },
   "devDependencies": {
-    "@remix-run/eslint-config": "^2.16.1",
-    "@remix-run/route-config": "^2.16.1",
+    "@remix-run/dev": "2.15.3",
+    "@remix-run/eslint-config": "2.15.3",
+    "@remix-run/fs-routes": "2.15.3",
+    "@remix-run/node": "2.15.3",
+    "@remix-run/react": "2.15.3",
+    "@remix-run/route-config": "2.15.3",
+    "@remix-run/serve": "2.15.3",
     "@shopify/api-codegen-preset": "^1.1.1",
     "@types/eslint": "^9.6.1",
     "@types/node": "^22.2.0",
     "@types/react": "^18.2.31",
     "@types/react-dom": "^18.2.14",
+    "@vercel/remix": "2.15.3",
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^10.0.1",
     "prettier": "^3.2.4",
     "typescript": "^5.2.2",
-    "vite": "^6.2.2"
+    "vite": "^5.1.4"
   },
   "workspaces": [
     "extensions/*"
