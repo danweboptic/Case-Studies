@@ -36,7 +36,7 @@ const shopify = shopifyApp({
   future: {
     v3_webhookAdminContext: true,
     v3_authenticatePublic: true,
-    unstable_newEmbeddedAuthStrategy: true, // Keep if you use this
+    // unstable_newEmbeddedAuthStrategy: true, // Keep if you use this
   },
   ...(process.env.SHOP_CUSTOM_DOMAIN
     ? { customShopDomains: [process.env.SHOP_CUSTOM_DOMAIN] }
